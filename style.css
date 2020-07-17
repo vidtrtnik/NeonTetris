@@ -1,0 +1,62 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#gradient {
+  background-image: linear-gradient(to bottom right, rgb(218, 32, 172), rgb(255, 0, 0), rgb(255, 123, 0));
+}
+
+#overlay {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  background-color: rgba(0, 0, 0, 0.66);
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+  padding: 1em;
+  border-radius: 1em;
+  border: 3px solid #ffffff;
+  text-shadow: 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 13vw;
+  height: 85vh;
+}
+
+a {
+  margin: auto;
+  color: rgb(255, 251, 0);
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(38, 255, 0);
+  text-decoration: underline;
+}
+
+h1 {
+  margin: auto;
+  color: rgb(255, 238, 0);
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white;
+}
+
+h2 {
+  margin: auto;
+  color: rgb(0, 255, 34);
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white, 0px 0px 3px white;
+}
