@@ -45,7 +45,7 @@ function getNewBlock()
   currentBlockRotation = 0;
 }
 
-var pause=0;
+var pause = 0;
 function gameFunction() {
 
   checkInput();
